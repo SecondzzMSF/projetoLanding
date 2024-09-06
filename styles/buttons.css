@@ -55,7 +55,7 @@
     content: "";
     position: absolute;
     border-radius: inherit;
-    inset: 0.09375rem;
+    inset: 1px;
     background-color: var(--bg-color);
   }
   &::after  {
@@ -66,5 +66,6 @@
     background-clip: text;
     color: transparent;
     position: relative;
+    z-index: 1;
   }
 }
